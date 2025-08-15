@@ -127,9 +127,9 @@ export default function Home() {
           </p>
           <div className="flex justify-center items-center gap-6">
             <Button variant="link" asChild className="text-lg">
-              <a href="mailto:contact@nextfolio.com" className="flex items-center gap-2">
+              <a href="mailto:py80596436@gmail.com" className="flex items-center gap-2">
                 <Mail className="h-5 w-5" />
-                contact@nextfolio.com
+                py80596436@gmail.com
               </a>
             </Button>
             <Button variant="link" asChild className="text-lg">
