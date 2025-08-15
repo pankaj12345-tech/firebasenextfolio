@@ -19,7 +19,7 @@ const projects = [
   {
     name: "SaaS Dashboard",
     description: "A multi-tenant SaaS application dashboard for data visualization and user management, featuring real-time updates.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://www.hostinger.com/in/tutorials/wp-content/uploads/sites/52/2022/04/web-developer-portfolio.png",
     imageHint: "dashboard analytics",
     liveUrl: "#",
     repoUrl: "#",

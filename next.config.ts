@@ -21,6 +21,12 @@ const nextConfig: NextConfig = {
         hostname: 'algocademy.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.hostinger.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
