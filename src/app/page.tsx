@@ -51,7 +51,7 @@ export default function Home() {
       <section id="hero" className="w-full bg-accent py-20 md:py-32 fade-in">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-card shadow-lg">
-            <AvatarImage src="https://placehold.co/128x128.png" alt="Developer's Photo" data-ai-hint="professional portrait" />
+            <AvatarImage src="https://i.postimg.cc/64t9rNdt/pankajyadav.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
