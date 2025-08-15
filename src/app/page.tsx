@@ -28,7 +28,7 @@ const projects = [
   {
     name: "AI Cover Letter Generator",
     description: "This very portfolio's tool to generate personalized cover letters using GenAI, based on job descriptions and your projects.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://www.prabhatkhabar.com/wp-content/uploads/2025/08/chatgpt-5-1.jpg",
     imageHint: "artificial intelligence",
     liveUrl: "/cover-letter-generator",
     repoUrl: "#",

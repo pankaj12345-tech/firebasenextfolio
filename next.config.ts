@@ -27,6 +27,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.hostinger.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.prabhatkhabar.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
