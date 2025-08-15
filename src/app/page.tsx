@@ -54,7 +54,7 @@ export default function Home() {
             <AvatarImage src="https://placehold.co/128x128.png" alt="Developer's Photo" data-ai-hint="professional portrait" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
-          <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj yadaav</h1>
+          <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
           <p className="mt-3 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             A passionate Next.js developer specializing in building modern, scalable, and user-friendly web applications.
           </p>
