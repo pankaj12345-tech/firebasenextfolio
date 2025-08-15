@@ -2,7 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code, Database, Globe, Mail, Server, Smartphone, Github } from "lucide-react";
+import { Code, Database, Globe, Mail, Server, Smartphone, Github, MessageSquare } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -136,6 +136,12 @@ export default function Home() {
               <a href="https://github.com/pankaj12345-tech" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <Github className="h-5 w-5" />
                 GitHub
+              </a>
+            </Button>
+            <Button variant="link" asChild className="text-lg">
+              <a href="https://wa.me/8059643661" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <MessageSquare className="h-5 w-5" />
+                WhatsApp
               </a>
             </Button>
           </div>
