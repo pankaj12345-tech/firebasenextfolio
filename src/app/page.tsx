@@ -10,7 +10,7 @@ const projects = [
   {
     name: "E-commerce Platform",
     description: "A full-stack e-commerce solution with a custom CMS, payment gateway integration, and a rich user interface built with Next.js.",
-    image: "https://algocademy.com/blog/wp-content/uploads/2024/10/compressed_image-144-1536x878.webp",
+    image: "https://placehold.co/600x400.png",
     imageHint: "online store",
     liveUrl: "#",
     repoUrl: "#",
@@ -19,7 +19,7 @@ const projects = [
   {
     name: "SaaS Dashboard",
     description: "A multi-tenant SaaS application dashboard for data visualization and user management, featuring real-time updates.",
-    image: "https://algocademy.com/blog/wp-content/uploads/2024/10/compressed_image-144-1536x878.webp",
+    image: "https://placehold.co/600x400.png",
     imageHint: "dashboard analytics",
     liveUrl: "#",
     repoUrl: "#",
@@ -28,7 +28,7 @@ const projects = [
   {
     name: "AI Cover Letter Generator",
     description: "This very portfolio's tool to generate personalized cover letters using GenAI, based on job descriptions and your projects.",
-    image: "https://algocademy.com/blog/wp-content/uploads/2024/10/compressed_image-144-1536x878.webp",
+    image: "https://placehold.co/600x400.png",
     imageHint: "artificial intelligence",
     liveUrl: "/cover-letter-generator",
     repoUrl: "#",

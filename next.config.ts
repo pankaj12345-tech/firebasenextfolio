@@ -16,12 +16,6 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
-      {
-        protocol: 'https',
-        hostname: 'algocademy.com',
-        port: '',
-        pathname: '/**',
-      },
     ],
   },
 };
