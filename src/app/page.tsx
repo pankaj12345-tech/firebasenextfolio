@@ -2,7 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code, Database, Globe, Linkedin, Mail, Server, Smartphone } from "lucide-react";
+import { Code, Database, Globe, Mail, Server, Smartphone, Github } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -123,7 +123,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold mb-4 font-headline">Get In Touch</h2>
           <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-            I&apos;m currently open to new opportunities. Feel free to reach out via email or connect with me on LinkedIn.
+            I&apos;m currently open to new opportunities. Feel free to reach out via email or connect with me on GitHub.
           </p>
           <div className="flex justify-center items-center gap-6">
             <Button variant="link" asChild className="text-lg">
@@ -133,9 +133,9 @@ export default function Home() {
               </a>
             </Button>
             <Button variant="link" asChild className="text-lg">
-              <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                <Linkedin className="h-5 w-5" />
-                LinkedIn
+              <a href="https://github.com/pankaj12345-tech" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <Github className="h-5 w-5" />
+                GitHub
               </a>
             </Button>
           </div>
