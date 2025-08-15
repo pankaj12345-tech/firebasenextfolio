@@ -10,7 +10,7 @@ const projects = [
   {
     name: "E-commerce Platform",
     description: "A full-stack e-commerce solution with a custom CMS, payment gateway integration, and a rich user interface built with Next.js.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://algocademy.com/blog/wp-content/uploads/2024/10/compressed_image-144-1536x878.webp",
     imageHint: "online store",
     liveUrl: "#",
     repoUrl: "#",
@@ -19,7 +19,7 @@ const projects = [
   {
     name: "SaaS Dashboard",
     description: "A multi-tenant SaaS application dashboard for data visualization and user management, featuring real-time updates.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://algocademy.com/blog/wp-content/uploads/2024/10/compressed_image-144-1536x878.webp",
     imageHint: "dashboard analytics",
     liveUrl: "#",
     repoUrl: "#",
@@ -28,7 +28,7 @@ const projects = [
   {
     name: "AI Cover Letter Generator",
     description: "This very portfolio's tool to generate personalized cover letters using GenAI, based on job descriptions and your projects.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://algocademy.com/blog/wp-content/uploads/2024/10/compressed_image-144-1536x878.webp",
     imageHint: "artificial intelligence",
     liveUrl: "/cover-letter-generator",
     repoUrl: "#",
@@ -51,7 +51,7 @@ export default function Home() {
       <section id="hero" className="w-full bg-accent py-20 md:py-32 fade-in">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-card shadow-lg">
-            <AvatarImage src="https://algocademy.com/blog/wp-content/uploads/2024/10/compressed_image-144-1536x878.webp" alt="Developer's Photo" data-ai-hint="professional portrait" />
+            <AvatarImage src="https://placehold.co/128x128.png" alt="Developer's Photo" data-ai-hint="professional portrait" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj yadaav</h1>
