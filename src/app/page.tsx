@@ -52,9 +52,9 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-card shadow-lg">
             <AvatarImage src="https://placehold.co/128x128.png" alt="Developer's Photo" data-ai-hint="professional portrait" />
-            <AvatarFallback>JD</AvatarFallback>
+            <AvatarFallback>PY</AvatarFallback>
           </Avatar>
-          <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">John Doe</h1>
+          <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj yadaav</h1>
           <p className="mt-3 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             A passionate Next.js developer specializing in building modern, scalable, and user-friendly web applications.
           </p>
