@@ -10,7 +10,7 @@ const projects = [
   {
     name: "E-commerce Platform",
     description: "A full-stack e-commerce solution with a custom CMS, payment gateway integration, and a rich user interface built with Next.js.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://algocademy.com/blog/wp-content/uploads/2024/10/compressed_image-144.webp",
     imageHint: "online store",
     liveUrl: "#",
     repoUrl: "#",
