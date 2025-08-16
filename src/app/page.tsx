@@ -51,7 +51,7 @@ export default function Home() {
       <section id="hero" className="w-full bg-accent py-20 md:py-32 fade-in">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <Avatar className="w-[400px] h-[400px] mx-auto mb-6 border-4 border-card shadow-lg">
-            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-[center_20%]" />
+            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-[center_30%]" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
@@ -119,27 +119,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="w-full py-16 md:py-24 bg-gray-800">
+      <section id="contact" className="w-full py-16 md:py-24 bg-black">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <h2 className="text-3xl font-bold mb-4 font-headline text-background">Get In Touch</h2>
-          <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4 font-headline text-white">Get In Touch</h2>
+          <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             I&apos;m currently open to new opportunities. Feel free to reach out via email or connect with me on GitHub.
           </p>
           <div className="flex justify-center items-center gap-6">
             <Button variant="link" asChild className="text-lg">
-              <a href="mailto:py80596436@gmail.com" className="flex items-center gap-2 text-background">
+              <a href="mailto:py80596436@gmail.com" className="flex items-center gap-2 text-white">
                 <Mail className="h-5 w-5" />
                 py80596436@gmail.com
               </a>
             </Button>
             <Button variant="link" asChild className="text-lg">
-              <a href="https://github.com/pankaj12345-tech" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-background">
+              <a href="https://github.com/pankaj12345-tech" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white">
                 <Github className="h-5 w-5" />
                 GitHub
               </a>
             </Button>
             <Button variant="link" asChild className="text-lg">
-              <a href="https://wa.me/8059643661" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-background">
+              <a href="https://wa.me/8059643661" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white">
                 <MessageSquare className="h-5 w-5" />
                 WhatsApp
               </a>
