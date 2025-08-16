@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="skills" className="w-full py-16 md:py-24">
+      <section id="skills" className="w-full py-16 md:py-24 bg-accent/50">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold text-center mb-12 font-headline">My Skillset</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
