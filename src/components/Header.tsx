@@ -15,7 +15,7 @@ export function Header() {
   ];
   
   return (
-    <header className="sticky top-0 z-50 w-full border-t-2 border-b-2 border-primary bg-gray-800 text-background">
+    <header className="sticky top-0 z-50 w-full border-t-2 border-b-2 border-primary bg-gray-800 text-white">
       <div className="container flex h-14 items-center">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
@@ -30,8 +30,8 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "transition-colors hover:text-background/80",
-                  pathname === link.href ? "text-background" : "text-background/60"
+                  "transition-colors hover:text-white/80",
+                  pathname === link.href ? "text-white" : "text-white/60"
                 )}
               >
                 {link.label}
@@ -49,12 +49,12 @@ export function Header() {
             </Link>
           </div>
           <nav className="flex items-center">
-            <Button variant="ghost" size="icon" asChild className="hover:bg-gray-700 hover:text-white">
+            <Button variant="ghost" size="icon" asChild className="text-white hover:bg-gray-700 hover:text-white">
               <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-5 w-5" />
               </a>
             </Button>
-            <Button variant="ghost" size="icon" asChild className="hover:bg-gray-700 hover:text-white">
+            <Button variant="ghost" size="icon" asChild className="text-white hover:bg-gray-700 hover:text-white">
               <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5" />
               </a>
