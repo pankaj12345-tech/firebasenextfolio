@@ -10,13 +10,13 @@ export function Footer() {
           <PanelsTopLeft className="h-5 w-5 text-primary" />
           <p className="text-sm text-muted-foreground">&copy; {year} Nextfolio. All rights reserved.</p>
         </div>
-        <div className="flex items-center gap-2 text-background">
-          <Button variant="ghost" size="icon" asChild className="hover:bg-gray-700 hover:text-white">
+        <div className="flex items-center gap-2">
+          <Button variant="ghost" size="icon" asChild className="text-white hover:bg-gray-700 hover:text-white">
             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="h-5 w-5" />
             </a>
           </Button>
-          <Button variant="ghost" size="icon" asChild className="hover:bg-gray-700 hover:text-white">
+          <Button variant="ghost" size="icon" asChild className="text-white hover:bg-gray-700 hover:text-white">
             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin className="h-5 w-5" />
             </a>
