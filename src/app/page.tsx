@@ -48,15 +48,23 @@ const skills = [
 export default function Home() {
   return (
     <div className="flex flex-col items-center">
+      <section className="w-full py-6 bg-accent/10">
+        <div className="container mx-auto px-4 md:px-6 text-center">
+          <h2 className="text-2xl md:text-3xl font-semibold tracking-widest text-primary uppercase">
+            Frontend Developer
+          </h2>
+        </div>
+      </section>
+
       <section id="hero" className="w-full bg-accent py-20 md:py-32 fade-in">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <Avatar className="w-[400px] h-[400px] mx-auto mb-6 border-4 border-card shadow-lg">
-            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-[center_30%]" />
+            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-center" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
           <p className="mt-3 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            I transform complex ideas into elegant, high-performance web applications with Next.js and a passion for pixel-perfect design.
+            I craft digital experiences, transforming ideas into intuitive, high-performance web applications with a creative touch.
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Button asChild size="lg">
