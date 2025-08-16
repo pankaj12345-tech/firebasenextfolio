@@ -51,7 +51,7 @@ export default function Home() {
       <section id="hero" className="w-full bg-accent py-20 md:py-32 fade-in">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <Avatar className="w-[400px] h-[400px] mx-auto mb-6 border-4 border-card shadow-lg">
-            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-[center_30%]" />
+            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-[center_50%]" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
@@ -90,7 +90,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12 font-headline">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
-              <Card key={project.name} className="flex flex-col overflow-hidden transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl">
+              <Card key={project.name} className="flex flex-col overflow-hidden transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl bg-card">
                 <CardHeader>
                   <div className="aspect-video overflow-hidden rounded-md mb-4 border">
                     <Image src={project.image} alt={project.name} width={600} height={400} className="object-cover w-full h-full" data-ai-hint={project.imageHint} />
