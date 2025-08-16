@@ -59,7 +59,7 @@ export default function Home() {
       <section id="hero" className="w-full bg-accent pt-10 md:pt-16 pb-20 md:pb-24 fade-in">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <Avatar className="w-[400px] h-[400px] mx-auto mb-6 border-4 border-card shadow-lg">
-            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-top" />
+            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-center" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
@@ -127,7 +127,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="w-full py-16 md:py-24 bg-black">
+      <section id="contact" className="w-full py-16 md:py-24 bg-black border-t-2 border-white">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold mb-4 font-headline text-white">Get In Touch</h2>
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
