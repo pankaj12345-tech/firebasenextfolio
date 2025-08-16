@@ -15,7 +15,7 @@ export function Header() {
   ];
   
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-gray-800 text-background">
+    <header className="sticky top-0 z-50 w-full border-t border-b border-primary bg-gray-800 text-background">
       <div className="container flex h-14 items-center">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
