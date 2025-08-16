@@ -56,7 +56,7 @@ export default function Home() {
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
           <p className="mt-3 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            A passionate Next.js developer specializing in building modern, scalable, and user-friendly web applications.
+            I transform complex ideas into elegant, high-performance web applications with Next.js and a passion for pixel-perfect design.
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Button asChild size="lg">
