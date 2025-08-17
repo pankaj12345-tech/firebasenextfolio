@@ -58,8 +58,8 @@ export default function Home() {
 
       <section id="hero" className="w-full bg-accent pt-10 md:pt-16 pb-20 md:pb-24 fade-in">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <Avatar className="w-64 h-64 md:w-[400px] md:h-[400px] mx-auto mb-6 border-4 border-card shadow-lg">
-            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-bottom" />
+          <Avatar className="w-48 h-48 md:w-64 md:h-64 mx-auto mb-6 border-4 border-card shadow-lg">
+            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-center" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
@@ -158,5 +158,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
