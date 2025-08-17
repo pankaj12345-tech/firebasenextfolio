@@ -58,8 +58,8 @@ export default function Home() {
 
       <section id="hero" className="w-full bg-accent pt-10 md:pt-16 pb-20 md:pb-24 fade-in">
         <div className="container mx-auto px-4 md:px-6 text-center">
-          <Avatar className="w-[400px] h-[400px] mx-auto mb-6 border-4 border-card shadow-lg">
-            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-top" />
+          <Avatar className="w-64 h-64 md:w-[400px] md:h-[400px] mx-auto mb-6 border-4 border-card shadow-lg">
+            <AvatarImage src="https://i.postimg.cc/BQG7g2ZD/IMG-3784.jpg" alt="Developer's Photo" data-ai-hint="professional portrait" className="object-cover object-bottom" />
             <AvatarFallback>PY</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-foreground">Pankaj Yadav</h1>
@@ -133,7 +133,7 @@ export default function Home() {
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             I&apos;m currently open to new opportunities. Feel free to reach out via email or connect with me on GitHub.
           </p>
-          <div className="flex justify-center items-center gap-6">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
             <Button variant="link" asChild className="text-lg">
               <a href="mailto:py80596436@gmail.com" className="flex items-center gap-2 text-white">
                 <Mail className="h-5 w-5" />
@@ -158,3 +158,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
